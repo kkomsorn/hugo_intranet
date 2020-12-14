@@ -1,0 +1,27 @@
+enable: true
+group: ระบบงานสารสนเทศ
+items:
+  - title: จองห้องประชุม
+    url: http://10.20.8.114/sites/intranet/02/SitePages/Home.aspx
+    icon: fas fa-users
+  - title: ระบบ myHR
+    url: https://egati.myhr.co.th/
+    icon: fab fa-google
+  - title: E-Service & IT Helpdesk
+    url: https://ss.egati.co.th/
+    icon: fas fa-tools
+  - title: How to & Tips
+    url: http://easy.egati.co.th/hugo/
+    icon: fas fa-laptop-code
+  - title: ระบบทะเบียนครุภัณฑ์
+    url: http://10.20.200.207:8001/asset/
+    icon: fas fa-shopping-basket
+  - title: E-Library
+    url: http://10.20.8.115:8000/
+    icon: fas fa-book
+  - title: Video
+    url: https://nas.egati.co.th/share.cgi?ssid=014An7G#014An7G
+    icon: fas fa-video   
+      
+      
+      

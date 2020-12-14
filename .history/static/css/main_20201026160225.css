@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+}
+
+
+
+h1 {
+    color: #ffffff;
+}
+
+.card {
+    opacity: 0.8;
+}
+.card:hover {
+    opacity: 1.0;
+}
+
+.cursorPointer:hover {
+    cursor: pointer;
+}

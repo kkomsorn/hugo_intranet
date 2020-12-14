@@ -1,0 +1,14 @@
+
+
+
+
+.card {
+    opacity: 0.8;
+}
+.card:hover {
+    opacity: 1.0;
+}
+
+.cursorPointer:hover {
+    cursor: pointer;
+}

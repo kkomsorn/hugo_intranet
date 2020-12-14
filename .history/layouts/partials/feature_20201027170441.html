@@ -1,0 +1,39 @@
+<!-- <section id="feature" style="background-image: url('{{ .Site.Params.feature.bgImage | absURL }}');"> -->
+<section class="container" id="Feature" id="Feature">
+  <div class="container" >
+    <div style="height:100px;"></div>
+    <!-- <div class="row">
+      <div class="col-md-6 col-md-offset-6">
+        <h2 class="text-uppercase">{{ .Site.Params.feature.title }}</h2>
+        <p>
+          {{ .Site.Params.feature.content | markdownify }}
+        </p>
+        {{ with .Site.Params.feature.button }}
+        <a href="{{ .url }}" class="btn btn-main">{{ .caption }}</a>
+        {{ end }}
+      </div>
+    </div> -->
+    <div class="container">
+   
+      <div class="row">
+        {{ if .Site.Data.feature.enable }}
+        <div class="col-md-12" align="center">
+          <h1>{{ .Site.Data.feature.group }}</h1>
+        </div>
+        <div style="height:80px;"></div>
+        {{ range .Site.Data.feature.items }}
+        <div class="col-md-3 card-1">
+          <div  align="center" >
+            <div style="height: 30px;"></div>
+            <div class="card-body cursorPointer" onclick="location.href = '{{ .url }}'">
+              <p class="card-text"><a href="{{ .url }}" target="_blank" class="iconLink"><i
+                    class="fa-5x {{ .icon }}"></i></a></p>
+              <p class="card-text"><a href="{{ .url }}" target="_blank" class="iconLink">{{ .title | safeHTML }}</a></p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+</section>

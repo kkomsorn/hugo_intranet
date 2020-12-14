@@ -1,0 +1,48 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+.h2-b {
+  font-weight: bold;
+}
+.p-nav {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-1 {
+  height: 230px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.cursorPointer:hover {
+  cursor: pointer;
+}
+
+a[ id= "servicios" ]:target ~ #main article.panel {
+  -webkit-transform: translateY( 0px);
+  transform: translateY( 0px );
+  }
+  
+  a[ id= "galeria" ]:target ~ #main article.panel {
+  -webkit-transform: translateY( -500px );
+  transform: translateY( -500px );
+  }
+  a[ id= "contacto" ]:target ~ #main article.panel {
+  -webkit-transform: translateY( -1000px );
+  transform: translateY( -1000px );
+  }

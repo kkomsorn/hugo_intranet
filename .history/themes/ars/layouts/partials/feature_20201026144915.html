@@ -1,0 +1,28 @@
+<section id="feature" style="background-image: url('{{ .Site.Params.feature.bgImage | absURL }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-6">
+        <h2 class="text-uppercase">{{ .Site.Params.feature.title }}</h2>
+        <p>
+          {{ .Site.Params.feature.content | markdownify }}
+        </p>
+        {{ with .Site.Params.feature.button }}
+        <a href="{{ .url }}" class="btn btn-main">{{ .caption }}</a>
+        {{ end }}
+      </div>
+    </div>
+    <p> "test " </p>
+    <div class="row">
+      {{ range .Site.Data.links }}
+            {{ range .items }}
+            <p> {{ .title }} </p>
+                <div id="iconListEntry" class="card">
+                    <div class="card-body cursorPointer" onclick="location.href = '{{ .url }}'">
+                        <p class="card-text"><a href="{{ .url }}" target="_self" class="iconLink"><i class="fa-5x {{ .icon }}"></i></a></p>
+                        <p class="card-text"><a href="{{ .url }}" target="_self" class="iconLink">{{ .title | safeHTML }}</a></p>
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
+  </div>
+</section>
