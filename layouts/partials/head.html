@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+<link rel="icon" type="image/png" href="/img/egatilogo.png" >
 <!-- robots -->
 <!-- you may configure it in the front matter of the page or in site params -->
 {{ if or (isset .Params "robots") (isset .Site.Params "robots") }}
@@ -28,9 +28,14 @@
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/venobox.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/5column.css" />
+
 {{ "<!-- Main Stylesheet -->" | safeHTML }}
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
-
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
 
 <!-- Js -->
 <script src="{{ .Site.BaseURL }}js/jquery-1.10.2.min.js"></script>

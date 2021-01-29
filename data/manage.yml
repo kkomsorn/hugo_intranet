@@ -1,0 +1,42 @@
+enable: true
+group: รวมช่องทางการเข้าถึงภายใน
+items:
+
+  - title: ระเบียบปฏิบัติและแบบพิมพ์
+    url: http://10.20.8.115:8000/
+    icon: fas fa-book
+
+  - title: งานจัดซื้อและจัดจ้าง
+    url: https://intranet.egati.co.th/home/index.php/egati-procurement.html
+    icon: fas fa-box-open
+
+  - title: งานบัญชี / การเงิน / งบประมาณ
+    url: http://portal.egati.co.th/fd
+    icon: fas fa-money-bill
+
+  - title: งานกฎหมาย
+    url: http://portal.egati.co.th/lawdivision/Pages/default.aspx
+    icon: fas fa-balance-scale
+
+  - title: งานแผนธุรกิจ
+    url: http://portal.egati.co.th/businessplan
+    icon: fas fa-chart-line
+    
+  - title: งานรัฐกิจสัมพันธ์
+    url: http://portal.egati.co.th/gr/_layouts/15/start.aspx#/
+    icon: fas fa-handshake
+
+  - title: งานคณะกรรมการ
+    url: http://intranet.egati.co.th/edoc/index.php/menu1
+    icon: fas fa-user-tie
+  
+  # - title: Job Description
+  #   url: http://seafile1.egati.co.th:8000/f/d6061a0b6e/
+  #   icon: fas fa-file-invoice   
+
+  - title: กฎบัตรการตรวจสอบภายใน
+    url: https://intranet.egati.co.th/home/index.php/mist/auditpaper.html
+    icon: fas fa-search
+      
+      
+      

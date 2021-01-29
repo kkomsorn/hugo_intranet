@@ -1,39 +1,33 @@
+
 <!-- <section id="feature" style="background-image: url('{{ .Site.Params.feature.bgImage | absURL }}');"> -->
-<section class="container" id="Feature" id="Feature">
-  <div class="container" >
+<section class="container" id="Feature" style="height: 720px;">
+  <div class="container">
     <div style="height:100px;"></div>
-    <!-- <div class="row">
-      <div class="col-md-6 col-md-offset-6">
-        <h2 class="text-uppercase">{{ .Site.Params.feature.title }}</h2>
-        <p>
-          {{ .Site.Params.feature.content | markdownify }}
-        </p>
-        {{ with .Site.Params.feature.button }}
-        <a href="{{ .url }}" class="btn btn-main">{{ .caption }}</a>
-        {{ end }}
-      </div>
-    </div> -->
     <div class="container">
-   
       <div class="row">
         {{ if .Site.Data.feature.enable }}
-        <div class="col-md-12" align="center">
-          <h1>{{ .Site.Data.feature.group }}</h1>
+        <div class="col-md-12" align="center" style="margin-bottom: 50px;">
+          <h1 class="text-primary" style="color: #32446b ; font-family: 'Kanit', sans-serif; ">{{.Site.Data.feature.group }}</h1>
         </div>
-        <div style="height:80px;"></div>
-        {{ range .Site.Data.feature.items }}
-        <div class="col-md-3 card-1">
-          <div  align="center" >
-            <div style="height: 30px;"></div>
-            <div class="card-body cursorPointer" onclick="location.href = '{{ .url }}'">
-              <p class="card-text-icon"><a href="{{ .url }}" target="_blank" class="iconLink"><i
-                    class="fa-5x {{ .icon }}"></i></a></p>
-              <p class="card-text"><a href="{{ .url }}" target="_blank" class="iconLink">{{ .title | safeHTML }}</a></p>
+
+            {{ range .Site.Data.feature.items }}
+            <div class="col-md-5th-1 col-sm-4 card-1" style="margin-bottom: 50px;">
+              <div align="center">
+                <div style="height: 30px;"></div>
+                <div class="card-body cursorPointer" onclick="location.href = '{{ .url }}'">
+                  <p class="card-text-icon" ><a href="{{ .url }}" target="_blank" class="iconLink text-primary"
+                      style="color: #F7D923; "><i class="fa-5x {{ .icon }}" style="stroke: #32446b; stroke-width: 30px;"></i></a></p>
+                  <p class="card-text"><a href="{{ .url }}" target="_blank" class="iconLink text-primary"
+                      style="color: #32446b ;">{{ .title | safeHTML }}</a></p>
+                </div>
+              </div>
             </div>
+            {{ end }}
           </div>
         </div>
         {{ end }}
-        {{ end }}
       </div>
+
     </div>
+
 </section>

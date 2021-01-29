@@ -1,0 +1,58 @@
+
+<!-- <section id="feature" style="background-image: url('{{ .Site.Params.feature.bgImage | absURL }}');"> -->
+  <section class="container" id="auditpaper" style="height: 720px; padding-left: 4px;">
+    <div class="container" align="center" style="padding-left: 3px;">
+      <div style="height:100px;"></div>
+  
+      <div class="container" align="center" style="padding-left: 0px;">
+        <div class="row" align="center">
+          {{ if .Site.Data.auditpaper.enable }}
+          <div class="col-md-12" align="center" style="margin-bottom: 120px;">
+            <h1 class="text-primary" style="color: #32446b; font-family: 'Prompt', sans-serif; ">กฎบัตรตรวจการสอบภายใน</h1>
+          </div> 
+
+              <div class="col-md-4 card-1" style="padding-left: 0px;" align="center">
+                <div align="center" class="magnifyBtn"onclick="window.open('{{ .Site.BaseURL }}pdf/13__2563.pdf','_blank')">
+                  <div style="height: 30px;"></div>
+                  <div class="card-body cursorPointer" >
+                    <p class="card-text-icon"><a target="_blank" class="iconLink text-primary"
+                        style="color: #F7D923 ;"><i class="fas fa-file-pdf" style="stroke: #878683; stroke-width: 0px; font-size: 7em;"></i></a></p>
+                    <p class="card-text"><a  target="_blank" class="iconLink text-primary"
+                        style="color: #32446b; font-family:Prompt ; font-size: 24px;">กฎบัตรการตรวจสอบภายใน </br>13 ก.พ. 2563</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 card-1" style="padding-left: 0px;" align="center">
+                <div align="center" class="magnifyBtn"onclick="window.open('{{ .Site.BaseURL }}pdf/1222562.pdf','_blank')">
+                  <div style="height: 30px;"></div>
+                  <div class="card-body cursorPointer" >
+                    <p class="card-text-icon"><a target="_blank" class="iconLink text-primary"
+                        style="color: #F7D923 ;"><i class="fas fa-file-pdf" style="stroke: #878683; stroke-width: 0px; font-size: 7em;"></i></a></p>
+                    <p class="card-text"><a  target="_blank" class="iconLink text-primary"
+                        style="color: #32446b; font-family:Prompt ; font-size: 24px;">กฎบัตรการตรวจสอบภายใน </br>12 ก.พ. 2562</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 card-1" style="padding-left: 0px;" align="center">
+                <div align="center" class="magnifyBtn"onclick="window.open('{{ .Site.BaseURL }}pdf/16__2561.pdf','_blank')">
+                  <div style="height: 30px;"></div>
+                  <div class="card-body cursorPointer" >
+                    <p class="card-text-icon"><a target="_blank" class="iconLink text-primary"
+                        style="color: #F7D923 ;"><i class="fas fa-file-pdf" style="stroke: #878683; stroke-width: 0px; font-size: 7em;"></i></a></p>
+                    <p class="card-text"><a  target="_blank" class="iconLink text-primary"
+                        style="color: #32446b; font-family:Prompt ; font-size: 24px;">กฎบัตรการตรวจสอบภายใน </br>16 ม.ค. 2561</a></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          {{ end }}
+        </div>
+  
+      </div>
+  
+  </section>
+

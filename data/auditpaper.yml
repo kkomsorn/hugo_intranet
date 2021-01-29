@@ -1,0 +1,15 @@
+enable: true
+group: ระบบงานสารสนเทศ
+items:
+
+  - title: กฎบัตรการตรวจสอบภายใน </br>13 ก.พ. 2563
+    url: /pdf/13__2563.pdf
+    icon: fas fa-file-pdf
+
+  - title: กฎบัตรการตรวจสอบภายใน </br>12 ก.พ. 2562
+    url: https://egati.myhr.co.th/
+    icon: fas fa-file-pdf
+
+  - title: กฎบัตรการตรวจสอบภายใน </br>16 ม.ค. 2561
+    url: https://ss.egati.co.th/
+    icon: fas fa-file-pdf

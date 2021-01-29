@@ -4,7 +4,7 @@ items:
 
   - title: จองห้องประชุม
     url: http://10.20.8.114/sites/intranet/02/SitePages/Home.aspx
-    icon: fas fa-users
+    icon: fas fa-door-open
 
   - title: ระบบ myHR
     url: https://egati.myhr.co.th/
@@ -24,7 +24,7 @@ items:
     
   - title: E-Library
     url: http://10.20.8.115:8000/
-    icon: fas fa-book
+    icon: fas fa-book-reader
 
   - title: Video
     url: https://nas.egati.co.th/share.cgi?ssid=014An7G#014An7G

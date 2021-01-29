@@ -1,8 +1,0 @@
----
-title: "Ezmid"
-date: 2020-10-22T15:57:41+07:00
-draft: true
----
-
-ghfhghfgghf
-
