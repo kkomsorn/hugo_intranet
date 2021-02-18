@@ -20,10 +20,10 @@ theme = "ars"
       weight = 2
       name = "ข่าวสารและประชาสัมพันธ์"
       url = "https://info.egati.co.th/processwire_news/my_blog/"
-  [[menu.main]]
-    name = "กฎบัตรตรวจสอบภายใน"
-    weight = 1
-    url = "auditpaper"
+#  [[menu.header]]
+ #     name = "คณะกรรมการ"
+  #    weight = 1
+   #   url = "bord_sec"
 
 
 

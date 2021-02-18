@@ -53,6 +53,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -89,13 +92,9 @@ ul {
   font-size: 20px;
 }
 
-a,
-a:active,
-a:focus,
-a:active {
-  text-decoration: none !important;
+.underline{
+  text-decoration: underline !important;
 }
-
 .section {
   padding: 100px 0;
 }
@@ -942,8 +941,6 @@ font header .navbar-default .navbar-nav li a:hover {
 footer {
   background: #F5F5F5;
   text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
 }
 
 footer p {

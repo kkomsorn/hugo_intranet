@@ -55,7 +55,7 @@ items:
     icon: fas fa-handshake
 
   - title: งานคณะกรรมการ
-    url: http://intranet.egati.co.th/edoc/index.php/menu1
+    url: bord_sec
     icon: fas fa-user-tie
   
   # - title: Job Description

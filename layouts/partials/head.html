@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="icon" type="image/png" href="/img/egatilogo.png" >
+
 <!-- robots -->
 <!-- you may configure it in the front matter of the page or in site params -->
 {{ if or (isset .Params "robots") (isset .Site.Params "robots") }}
@@ -12,7 +12,7 @@
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory
      or place appropriate <link .../> etc in favicon.html partial -->
 {{ partial "favicon.html" . }}
-
+<link rel="icon" href="{{ .Site.BaseURL }}img/favicon.ico" type="image/x-icon">
 <title>{{ .Title }}</title>
 
 {{ hugo.Generator }}

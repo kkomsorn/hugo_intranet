@@ -1,0 +1,58 @@
+<section class="container" id="bord_sec" style=" padding-left: 4px; min-height: 694px;">
+    <div class="container" style="padding-left: 3px;">
+        <div style="height:100px;"></div>
+
+        <div class="container" style="padding-left: 0px;">
+            <div class="row">
+                <h1 class="text-primary"
+                    style="color: #32446b; font-family: 'Prompt', sans-serif;margin-bottom: 20px;margin-top: 10px; ">
+                    ระบบ IT</h1>
+                <hr style="border-top:3px solid #444444; width: 100%; float: left;margin-top: 0px;margin-bottom: 20px;">
+                <div class="col-md-12">
+
+
+                    {{ range .Site.Data.it_system.items }}
+                    <div class="col-md-5th-1 col-sm-4 card-1" style="padding-left: 0px;">
+                        <div align="center" class="magnifyBtn" onclick="window.open({{ .url }} ,'_blank')">
+                            <div class="card-body cursorPointer">
+                                <p class="card-text-icon"><a href="{{ .url }}" target="_blank"
+                                        class="iconLink text-primary" style="color: #32446b;"><i
+                                            class="fa-5x {{ .icon }}"
+                                            style="stroke: #878683; stroke-width: 0px; font-size: 6em;"></i></a></p>
+                                <p class="card-text"><a href="{{ .url }}" target="_blank" class="iconLink text-primary"
+                                        style="color: #32446b; font-family:Prompt ; font-size: 20px;">{{ .title | safeHTML }}</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+
+                    <h1 class="text-primary"
+                        style="color: #32446b; font-family: 'Prompt', sans-serif;margin-bottom: 20px;margin-top: 10px; ">
+                        Portal ของแต่ละหน่วยงาน</h1>
+                    <hr style="border-top:3px solid #444444; width: 100%; float: left;margin-top: 0px;margin-bottom: 20px;">
+                    <div class="col-md-12" style="text-align: left;">
+
+                        {{ range .Site.Data.system.items }}
+                        <div class="col-md-5th-1 col-sm-4 card-1" style="padding-left: 0px;">
+                            <div align="center" class="magnifyBtn" onclick="window.open({{ .url }} ,'_blank')">
+                                <div class="card-body cursorPointer">
+                                    <p class="card-text-icon"><a href="{{ .url }}" target="_blank"
+                                            class="iconLink text-primary" style="color: #32446b;"><i
+                                                class="fa-5x {{ .icon }}"
+                                                style="stroke: #878683; stroke-width: 0px; font-size: 6em;"></i></a></p>
+                                    <p class="card-text"><a href="{{ .url }}" target="_blank"
+                                            class="iconLink text-primary"
+                                            style="color: #32446b; font-family:Prompt ; font-size: 20px;">{{ .title|safeHTML }}</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</section>

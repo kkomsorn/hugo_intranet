@@ -1,22 +1,20 @@
 
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
-        <nav class="navbar navbar-fixed-top navbar-dark" style="background-color: #32446b ; margin-bottom: 0px;">
+        <nav class="navbar navbar-fixed-top navbar-dark" style="background-color: #F7D923 ; margin-bottom: 0px;">
           <div class="container-fluid container">
             <div class="navbar-header">
               <div >
-                <img src="{{ .Site.BaseURL }}img/biglogo.png" style="height: 50px; width: 50px; float: left; margin-top: 13px;margin-right: 10px;">
-                <a href="{{ .Site.BaseURL }}"><h2 class="h2-nav text-primary" style="color:#F7D923 ; font-family: 'Prompt', sans-serif; margin-top: 20px; display: inline-block;" >EGATi</h2></a> 
+                <img src="{{ .Site.BaseURL }}img/biglogo.png" style="height: 50px; width: 50px; float: left; margin-top: 13px;margin-right: 10px; margin-left: -15px;">
+                <a href="{{ .Site.BaseURL }}"><h2 class="h2-nav text-primary" style="color:#32446b ; font-family: 'Prompt', sans-serif; margin-top: 20px; display: inline-block;" >EGATi</h2></a> 
               </div>
             </div>
             <div class="collapse navbar-collapse" id="navigation">
               <ul class="nav navbar-nav navbar-right">
-                <li><a class="scrollLink" href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
-                {{ range .Site.Menus.header }}
-                <li ><a class="scrollLink" href="#{{ .URL }}" target="_blank"><p class="p-nav" style="color: #F7D923;" > {{ .Name }}</p></a></li>
-                {{ end }}
+                <li>
                 {{ range .Site.Menus.header2 }}
-                <li ><a href="{{ .URL }}" class=" magnifyBtn" target="_blank"><p class="p-nav" style="color: #F7D923;"> {{ .Name }}</p></a></li>
+                <li ><a href="{{ .URL }}" class=" magnifyBtn" target="_blank"><p class="p-nav" style="color: #32446b;"> {{ .Name }}</p></a></li>
                 {{ end }}
+
               </ul>
             </div>
           </div>

@@ -1,0 +1,33 @@
+enable: true
+group: ระบบของแต่ละหน่วยงาน
+items:
+
+  - title: งานจัดซื้อจัดจ้าง
+    url: pocure
+    icon: fas fa-box-open
+
+
+
+  - title: งานกฎหมาย
+    url: http://portal.egati.co.th/lawdivision/Pages/default.aspx
+    icon: fas fa-balance-scale
+
+  - title: งานแผนธุรกิจ
+    url: http://portal.egati.co.th/businessplan
+    icon: fas fa-chart-line
+    
+  - title: งานรัฐกิจสัมพันธ์
+    url: http://portal.egati.co.th/gr/_layouts/15/start.aspx#/
+    icon: fas fa-handshake
+
+  - title: งานคณะกรรมการ
+    url: boardsec
+    icon: fas fa-user-tie
+
+  - title: กฎบัตรการตรวจสอบภายใน
+    url: http://seafile1.egati.co.th:8000/d/d42d3ba658/
+    icon: fas fa-search  
+  
+  - title: งานบัญชี/การเงิน/งบประมาณ
+    url: http://portal.egati.co.th/fd
+    icon: fas fa-money-bill
