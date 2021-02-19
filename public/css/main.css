@@ -1,20 +1,66 @@
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  width: 200px;
-  height: 200px;
-  border-radius: 5px;
+.footer {
+  background-color: #F7D923;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  height: 73px;
+  clear:both;
+  padding-top:0px;
+  margin-bottom: 0px;
+  margin-top: auto;
 }
+
 .h2-b {
   font-weight: bold;
 }
+
 .p-nav {
   font-size: 18px;
   font-weight: bold;
 }
 
-.card-1 {
-  height: 230px;
+.card-2 {
+  border-radius: 25px;
+  width: 32%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 7px;
+  margin-right: 7px;
+  min-height: 330.87px;
+  min-width: 360.81px;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.card-3 {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 25px;
+  min-height: 150px;
+  min-width: 360.81px;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.card-4 {
+  border-radius: 25px;
+  width: 32%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 7px;
+  margin-right: 7px;
+  min-height: 350.87px;
+  min-width: 360.81px;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.card-5 {
+  width: 63%;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 25px;
+  min-height: 150px;
+  min-width: 360.81px;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .card:hover {
@@ -34,11 +80,13 @@ img {
 }
 
 .card-text {
-  font-size: 24px;
+  font-size: 22px;
 }
-.card-text-icon{
+
+.card-text-icon {
   font-size: 8px;
 }
+
 .bg {
   display: -ms-flexbox;
   display: flex;
@@ -49,12 +97,15 @@ img {
   flex-wrap: wrap;
   background-attachment: fixed;
 }
-.left{
+
+.left {
   float: left;
 }
+
 .rows {
   column-count: 5;
 }
+
 .site-identity {
   float: left;
 }
@@ -70,6 +121,7 @@ img {
   float: left;
   margin: 0 10px 0 0;
 }
+
 .magnifyBtn {
   padding: 12px 24px;
   background-color: transparent;
@@ -79,12 +131,13 @@ img {
 }
 
 .magnifyBtn:hover {
-  transform: scale(1.30);
+  transform: scale(1.15);
 }
 
 .magnifyBtn:active {
   transform: scale(.9);
 }
+
 .pressDownButton {
   background-color: transparent;
   padding: 12px 24px;
@@ -97,7 +150,72 @@ img {
   border-bottom-width: 0;
   margin-top: 3px;
 }
+
 .nav>li>a:focus, .nav>li>a:hover {
   text-decoration: none;
   background-color: transparent;
+}
+
+.size-15 {
+  flex: 0 15%;
+  width: 15%;
+  min-width: 0;
+  min-height: 0;
+}
+
+.tarstyle {
+  font-family: Prompt;
+  color: #32446b;
+  font-size: 18px;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.magnifyText {
+  color: #32446b;
+  transition: color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.magnifyText:hover {
+  transform: scale(1.15);
+  color: #232f49;
+}
+
+.magnifyText:active {
+  transform: scale(.9);
+}
+
+@media only screen and (max-width: 1193px) {
+  .card-2 {
+    width: 32%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    min-height: 352.87px;
+    min-width: 360.81px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .card-3 {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 3%;
+    margin-right: 25%;
+    min-height: 150px;
+    min-width: 360.81px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  }
+  .card-4 {
+    width: 32%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    min-height: 350.00px;
+    min-width: 360.81px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 }

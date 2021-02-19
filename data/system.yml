@@ -3,7 +3,7 @@ group: ระบบของแต่ละหน่วยงาน
 items:
 
   - title: งานจัดซื้อจัดจ้าง
-    url: pocure
+    url: procure
     icon: fas fa-box-open
 
 

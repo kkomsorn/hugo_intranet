@@ -3,15 +3,104 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://easy.egati.co.th/intranet/blog/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://easy.egati.co.th/intranet/categories/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://easy.egati.co.th/intranet/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/tags/ipsum/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/categories/lorem/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/blog/migrate-from-jekyll/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://easy.egati.co.th/intranet/tags/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/tags/hugo/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/blog/hugo-is-for-lovers/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/categories/pseudo/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/blog/creating-a-new-theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/categories/starting/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/tags/theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/cate/</loc>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/tags/golang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/blog/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/procure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/tags/programming/</loc>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/boardsec/</loc>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/service/</loc>
+  </url>
+  
+  <url>
+    <loc>https://easy.egati.co.th/intranet/work/</loc>
   </url>
   
 </urlset>
