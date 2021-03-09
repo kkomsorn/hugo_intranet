@@ -1,5 +1,7 @@
 title = "EGATi Intranet"
-baseURL = "https://easy.egati.co.th/intranet/"
+baseURL = "https://intranet.egati.co.th/"
+# baseURL = "https://easy.egati.co.th/intranet/"
+
 languageCode = "en-us"
 theme = "ars"
 

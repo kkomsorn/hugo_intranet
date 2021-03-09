@@ -3,104 +3,108 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/blog/</loc>
+    <loc>https://intranet.egati.co.th/blog/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/categories/</loc>
+    <loc>https://intranet.egati.co.th/categories/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/</loc>
+    <loc>https://intranet.egati.co.th/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/tags/ipsum/</loc>
+    <loc>https://intranet.egati.co.th/tags/ipsum/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/categories/lorem/</loc>
+    <loc>https://intranet.egati.co.th/categories/lorem/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/blog/migrate-from-jekyll/</loc>
+    <loc>https://intranet.egati.co.th/blog/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/tags/</loc>
+    <loc>https://intranet.egati.co.th/tags/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/tags/hugo/</loc>
+    <loc>https://intranet.egati.co.th/tags/hugo/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/blog/hugo-is-for-lovers/</loc>
+    <loc>https://intranet.egati.co.th/blog/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/categories/pseudo/</loc>
+    <loc>https://intranet.egati.co.th/categories/pseudo/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/blog/creating-a-new-theme/</loc>
+    <loc>https://intranet.egati.co.th/blog/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/categories/starting/</loc>
+    <loc>https://intranet.egati.co.th/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/tags/theme/</loc>
+    <loc>https://intranet.egati.co.th/tags/theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/cate/</loc>
+    <loc>https://intranet.egati.co.th/cate/</loc>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/contact/</loc>
+    <loc>https://intranet.egati.co.th/contact/</loc>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/tags/golang/</loc>
+    <loc>https://intranet.egati.co.th/tags/golang/</loc>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/blog/installation/</loc>
+    <loc>https://intranet.egati.co.th/blog/installation/</loc>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/procure/</loc>
+    <loc>https://intranet.egati.co.th/tags/programming/</loc>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/tags/programming/</loc>
+    <loc>https://intranet.egati.co.th/service/</loc>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/boardsec/</loc>
+    <loc>https://intranet.egati.co.th/work/</loc>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/service/</loc>
+    <loc>https://intranet.egati.co.th/boardsec/</loc>
   </url>
   
   <url>
-    <loc>https://easy.egati.co.th/intranet/work/</loc>
+    <loc>https://intranet.egati.co.th/procure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://intranet.egati.co.th/business/</loc>
   </url>
   
 </urlset>

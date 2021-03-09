@@ -1,5 +1,5 @@
 +++
-title = "Secertary-Board"
+title = "งานคณะกรรมการ"
 id = "boardsec"
 bgImage = "img/slider-bg.jpg"
 +++

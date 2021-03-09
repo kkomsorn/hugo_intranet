@@ -3,7 +3,7 @@ group: ระบบit
 items:
 
   - title: จองห้องประชุม
-    url: http://10.20.8.114/sites/intranet/02/SitePages/Home.aspx
+    url: https://intranet.egati.co.th/mb/web/
     icon: fas fa-door-open
 
   - title: ระบบ myHR

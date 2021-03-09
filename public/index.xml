@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EGATi Intranet</title>
-    <link>https://easy.egati.co.th/intranet/</link>
+    <link>https://intranet.egati.co.th/</link>
     <description>Recent content on EGATi Intranet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate><atom:link href="https://easy.egati.co.th/intranet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate><atom:link href="https://intranet.egati.co.th/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Migrate from Jekyll</title>
-      <link>https://easy.egati.co.th/intranet/blog/migrate-from-jekyll/</link>
+      <link>https://intranet.egati.co.th/blog/migrate-from-jekyll/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>https://easy.egati.co.th/intranet/blog/migrate-from-jekyll/</guid>
+      <guid>https://intranet.egati.co.th/blog/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>Hugo is for lovers</title>
-      <link>https://easy.egati.co.th/intranet/blog/hugo-is-for-lovers/</link>
+      <link>https://intranet.egati.co.th/blog/hugo-is-for-lovers/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
-      <guid>https://easy.egati.co.th/intranet/blog/hugo-is-for-lovers/</guid>
+      <guid>https://intranet.egati.co.th/blog/hugo-is-for-lovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
@@ -34,38 +34,38 @@ Follow the following steps:
     
     <item>
       <title>Creating a new theme</title>
-      <link>https://easy.egati.co.th/intranet/blog/creating-a-new-theme/</link>
+      <link>https://intranet.egati.co.th/blog/creating-a-new-theme/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>https://easy.egati.co.th/intranet/blog/creating-a-new-theme/</guid>
+      <guid>https://intranet.egati.co.th/blog/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>category</title>
-      <link>https://easy.egati.co.th/intranet/cate/</link>
+      <link>https://intranet.egati.co.th/cate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://easy.egati.co.th/intranet/cate/</guid>
+      <guid>https://intranet.egati.co.th/cate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://easy.egati.co.th/intranet/contact/</link>
+      <link>https://intranet.egati.co.th/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://easy.egati.co.th/intranet/contact/</guid>
+      <guid>https://intranet.egati.co.th/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How To Setup Airspace Hugo</title>
-      <link>https://easy.egati.co.th/intranet/blog/installation/</link>
+      <link>https://intranet.egati.co.th/blog/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://easy.egati.co.th/intranet/blog/installation/</guid>
+      <guid>https://intranet.egati.co.th/blog/installation/</guid>
       <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer. hugo install documentation
 STEP-2 : Create your project Hugo provides a new command to create a new website.
 hugo new site &amp;lt;new_project&amp;gt; STEP-3 : Install the theme Run this command
@@ -73,38 +73,47 @@ hugo new site airspace-hugo and then go to the themes folder inside of airspace-
     </item>
     
     <item>
-      <title>Procurement</title>
-      <link>https://easy.egati.co.th/intranet/procure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://easy.egati.co.th/intranet/procure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Secertary-Board</title>
-      <link>https://easy.egati.co.th/intranet/boardsec/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://easy.egati.co.th/intranet/boardsec/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Service</title>
-      <link>https://easy.egati.co.th/intranet/service/</link>
+      <link>https://intranet.egati.co.th/service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://easy.egati.co.th/intranet/service/</guid>
+      <guid>https://intranet.egati.co.th/service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Work</title>
-      <link>https://easy.egati.co.th/intranet/work/</link>
+      <link>https://intranet.egati.co.th/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://easy.egati.co.th/intranet/work/</guid>
+      <guid>https://intranet.egati.co.th/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>งานคณะกรรมการ</title>
+      <link>https://intranet.egati.co.th/boardsec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://intranet.egati.co.th/boardsec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>งานจัดซื้อจัดจ้าง</title>
+      <link>https://intranet.egati.co.th/procure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://intranet.egati.co.th/procure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>งานแผนธุรกิจ</title>
+      <link>https://intranet.egati.co.th/business/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://intranet.egati.co.th/business/</guid>
       <description></description>
     </item>
     
